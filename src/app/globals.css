@@ -2,4 +2,12 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer components {
+  .forms-inputs {
+    @apply border-b-2 bg-transparent outline-none border-white border-solid py-1.5 pl-7 pr-7 w-auto text-center placeholder:text-gray-300 focus:text-gray-300;
+  }
 
+  .sm-forms-inputs {
+    @apply text-s leading-6;
+  }
+}
